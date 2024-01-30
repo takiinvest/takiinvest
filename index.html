@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+         <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+            background-image:url(/background.jpg);
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: beige;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+            align-items: center;
+            justify-content: center;
+
+        }
+        .container h2{
+            text-align: center;
+            font-size: 2rem;
+        }
+        .container p{
+            text-align: center;
+        }
+        .links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .links li {
+            margin: 10% 10% 10% 10%;
+        }
+        
+        .links a {
+            text-decoration: none;
+            color: #333;
+            padding: 20px 40px;
+            background-color: #ddd;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .links a:hover {
+            background-color: #aaa;
+        }
+       
+
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            .links li {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Meus Links</h2>
+        <p>Se precisar tirar duvidas, clique no WhatsApp. Se quiser obter o conhecimento de ter uma boa vida financeira, clique no Investidor em 1 Hora.</p>
+        <ul class="links">
+            <li><a href="https://wa.me/+5513996753398">Meu WhatsApp</a></li>
+            <li><a href="https://bit.ly/3OnITYa">Investidor em 1 Hora</a></li>
+        </ul>
+    </div>
+</body>
+</html>
